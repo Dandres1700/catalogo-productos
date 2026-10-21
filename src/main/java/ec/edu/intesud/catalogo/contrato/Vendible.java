@@ -1,5 +1,5 @@
 package ec.edu.intesud.catalogo.contrato;
 
-public class Vendible {
-
+public interface Vendible {
+    void vender(int cantidad);
 }
